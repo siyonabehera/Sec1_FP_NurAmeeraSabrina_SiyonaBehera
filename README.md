@@ -59,9 +59,7 @@ Bar Chart: Median Earnings by Major Group.png: Bar chart showing median income b
 Education vs Median Hours.png: Median hours worked per week by education level.
 
 
-
-
-![7  Heatmap: Average Hours by Age Group and Education](https://github.com/user-attachments/assets/a882d18d-f596-48cc-9ee7-54f4b76340c8)
+![1  Bar Chart_ Education vs Median Hours Worked](https://github.com/user-attachments/assets/f08d3b04-b621-4f39-aadf-3fbd68dce1e7)
 
 Average Hours by Age Group and Education.png: Heatmap of hours by Age Group and Education. 
 
