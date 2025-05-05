@@ -74,7 +74,7 @@ We present the guidelines as a checklist in this file. This means that your team
   - [X] Each team should update the included README file to match their project.
   - [X] Each team member must have at least two (2) commits in the repo's history.
   - [X] There should be a Main branch and at least one development ("dev") branch for the repo.
-  - [ ] There should be at must be at least one Pull Request that resulted in a successful merging of two branches.
+  - [X] There should be at must be at least one Pull Request that resulted in a successful merging of two branches.
   - [X] One team member should create the Pull Request while a *different* team member should review and complete the Pull Request.
   - [ ] Ensure that your instructor has access to your repo.
   - [ ] __Optional:__ Use the repo's Issues system to track and address any problems, core tasks, etc. 
