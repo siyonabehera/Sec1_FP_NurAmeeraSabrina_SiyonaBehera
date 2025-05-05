@@ -19,16 +19,18 @@ Policy Implications: Sheds light on productivity trends, diminishing returns fro
 
 ### Interesting Insight
 
+Higher Pay ≠ Longer Hours: Major groups like Health and Engineering report high incomes without working the longest hours. 
+
 ![2  Bar Chart: Median Earnings by Major](https://github.com/user-attachments/assets/1f773823-a215-4b45-89df-3361f9219f40)
 
 
-Higher Pay ≠ Longer Hours: Major groups like Health and Engineering report high incomes without working the longest hours.
-
 
 ## Repo Structure
-
+ 
 Repository Content
+
 Code
+
 Final_Project.R
 
 Reads, cleans, and merges adult_income.csv and college_majors.csv.
@@ -53,13 +55,12 @@ Saved plots include:
 Bar Chart: Median Earnings by Major Group.png: Bar chart showing median income by major group.
 
 
-
-![1  Bar Chart: Education vs Median Hours](https://github.com/user-attachments/assets/8bf1fda8-cea9-4cd3-b12e-9d3b22e679fd)
+![1  Bar Chart: Education vs Median Hours Worked](https://github.com/user-attachments/assets/4647ceb3-b362-46d0-b340-5e7b102becaa)
 
 Education vs Median Hours.png: Median hours worked per week by education level.
 
 
-![1  Bar Chart_ Education vs Median Hours Worked](https://github.com/user-attachments/assets/f08d3b04-b621-4f39-aadf-3fbd68dce1e7)
+![Heatmap: Hours by Age Group and Education](https://github.com/user-attachments/assets/d8d55a03-2520-45c0-a011-d4a5e12ccce7)
 
 Average Hours by Age Group and Education.png: Heatmap of hours by Age Group and Education. 
 
@@ -87,7 +88,7 @@ Required R packages to be installed:
 
 Adult Income Dataset: Kaggle - Adult Census Income
 
-College Majors Dataset: Kaggle - Most Popular College Majors
+College Majors Dataset: Kaggle - Economic Values of College Majors Data Analysis
 
 
 ## Authors
