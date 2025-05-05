@@ -44,4 +44,4 @@ View(college_majors)
 # Save cleaned data
 write_csv(adult_income, "/Users/siyona/STAT 184/Sec1_FP_NurAmeeraSabrina_SiyonaBehera/Final Project/data/cleaned_adult_income.csv")
 write_csv(college_majors, "/Users/siyona/STAT 184/Sec1_FP_NurAmeeraSabrina_SiyonaBehera/Final Project/data/cleaned_college_majors.csv")
-
+# I think the line (#45 & 46) will not working for any other device other than Siyona's as it is not reproducible. Try to copy the path(link) that is public, like the ones you use to read the csv files above(line #5 and #6)
