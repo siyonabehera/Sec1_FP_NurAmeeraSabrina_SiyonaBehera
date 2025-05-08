@@ -4,3 +4,26 @@ Engineering,41.73818646232439,57000
 Industrial Arts & Consumer Services,41.61900647948164,35000
 Business,41.589391936549916,40000
 Health,41.3636699963004,35000
+
+#I have include the 2nd summary table into the QMD file
+# The 2nd table emphasized on "summary of weekly work hours by income group"
+#The code;
+library(dplyr)
+library(knitr)
+
+income_summary <- adult_income %>%
+  group_by(income) %>%
+  summarise(
+    count = n(),
+    min = min(`hours-per-week`, na.rm = TRUE),
+    Q1 = quantile(`hours-per-week`, 0.25, na.rm = TRUE),
+    median = median(`hours-per-week`, na.rm = TRUE),
+    Q3 = quantile(`hours-per-week`, 0.75, na.rm = TRUE),
+    max = max(`hours-per-week`, na.rm = TRUE),
+    mad = mad(`hours-per-week`, na.rm = TRUE),
+    mean = mean(`hours-per-week`, na.rm = TRUE),
+    sd = sd(`hours-per-week`, na.rm = TRUE)
+  )
+
+income_summary %>%
+  kable(digits = 2)
