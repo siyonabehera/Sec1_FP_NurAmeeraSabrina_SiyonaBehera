@@ -75,6 +75,26 @@ ggplot(heatmap_data, aes(x = education, y = Age_Group, fill = Avg_Hours)) +
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 90)) + scale_fill_gradientn(colors = c("#fbb4b9", "#f768a1", "#ae017e"))
 
+#I added another 1 visualizations into the report to strengthen our report and this is the code, can you just copy and pasted it into this file?
+#8.Scatter Plot (High Income Indicator VS Hours Per Week) 
+# Convert income to binary
+"""
+adult_income <- adult_income %>%
+  mutate(income_binary = if_else(income == ">50K", 1, 0))
+
+# Plot with jitter and trend line
+ggplot(adult_income, aes(x = `hours-per-week`, y = income_binary)) +
+  geom_jitter(alpha = 0.3, color = "gray") +
+  geom_smooth(method = "loess", se = FALSE, color = "red", size = 1.2) +
+  labs(title = "Does More Work Mean More Pay?",
+       subtitle = "Smoothed trend showing probability of earning >$50K vs hours worked",
+       x = "Hours per Week",
+       y = "High Income Indicator (1 = >50K)") +
+  theme_minimal()
+""""
+#I will give you the graph in IM
+
+
 
 
 
