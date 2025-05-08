@@ -64,6 +64,8 @@ Education vs Median Hours.png: Median hours worked per week by education level.
 
 Average Hours by Age Group and Education.png: Heatmap of hours by Age Group and Education. 
 
+#Do you think we have to include all of the visualizations we have in this readme file? or this 3 are enough?
+
 ## How to Use
 
 1. Clone the repository:
