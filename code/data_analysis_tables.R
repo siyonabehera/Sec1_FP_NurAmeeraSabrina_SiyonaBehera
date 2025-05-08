@@ -34,5 +34,3 @@ intersect(unique(adult_income$Major_Group), unique(college_majors$Major_Group))
 View(adult_summary)
 View(college_summary)
 View(merged_summary)
-#I can't seem to run this code, it seems like this line of code is not reproducible as it linked to the personal path. 
-write_csv(merged_summary, "/Users/siyona/STAT 184/Sec1_FP_NurAmeeraSabrina_SiyonaBehera/Final Project/data/merged_summary.csv")
