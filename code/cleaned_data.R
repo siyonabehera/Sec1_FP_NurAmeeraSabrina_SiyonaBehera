@@ -41,6 +41,7 @@ college_majors <- college_majors %>%
 View(adult_income)
 View(college_majors)
 
+#The write_csv should not contain personal path. Try write_csv(adult_income, "cleaned_adult_income.csv") instead of the write_csv("User/Siyona/...")
 # Save cleaned data
 # Save cleaned data
 write_csv(adult_income, "cleaned_adult_income.csv")
